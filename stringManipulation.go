@@ -58,7 +58,7 @@ func Itoa(num int) string {
 		numSlc = append(numSlc, mod)
 	}
 
-	for i := len(numSlc)-1; i >= 0; i-- {
+	for i := len(numSlc) - 1; i >= 0; i-- {
 		char = int32(numSlc[i]) + '0'
 		result += string(char)
 	}
